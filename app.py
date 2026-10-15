@@ -4,10 +4,10 @@ import streamlit as st
 from google import genai
 
 # Page configuration
-st.set_page_config(page_title="English to Nigerian Pidgin Translator", page_icon="🇳🇬")
+st.set_page_config(page_title="Chazbot's Marvelous Pidgin Translator", page_icon="🇳🇬")
 
-st.title("🇳🇬 English to Nigerian Pidgin Translator")
-st.write("Enter any English sentence below to convert it into natural, authentic Nigerian Pidgin!")
+st.title("🇳🇬 Chazbot's Marvelous Patented English to Nigerian Pidgin Translator 🇳🇬")
+st.write("Go nuts on authentic Nigerian Pidgin!")
 
 # Retrieve the API key from environment / platform secrets
 api_key = os.environ.get("GEMINI_API_KEY")
