@@ -7,7 +7,7 @@ from google import genai
 st.set_page_config(page_title="Chazbot's Marvelous Pidgin Translator", page_icon="🇳🇬")
 
 st.title("🇳🇬 Chazbot's Marvelous Patented English to Nigerian Pidgin Translator 🇳🇬")
-st.write("Go nuts on authentic Nigerian Pidgin!")
+st.write("Jan Pidgin App")
 
 # Retrieve the API key from environment / platform secrets
 api_key = os.environ.get("GEMINI_API_KEY")
@@ -20,7 +20,7 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 # Web Interface UI
-english_text = st.text_area("English Text:", placeholder="Type something here, e.g., 'How are you doing today my friend?'")
+english_text = st.text_area("English Text:", placeholder="Type something here, e.g., 'Aren't my friends great for vibe coding me Nigerian Pidgin translating apps?'")
 
 if st.button("Translate to Pidgin", type="primary"):
     if english_text.strip():
